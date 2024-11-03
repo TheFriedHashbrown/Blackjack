@@ -1,0 +1,37 @@
+h1 {
+    color: goldenrod;
+}
+
+body {
+    color: aliceblue;
+    font-family: 'Trebuchet MS';
+    background-image: url('./Images/casino.png');
+    background-size: cover;
+    text-align: center;
+    font-weight: bolder;    
+}
+
+#message-el {
+    font-style: italic;
+}
+
+.start {
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    font-family: 'Trebuchet MS';
+    border: none;
+    border-radius: 2px;
+    font-weight: bolder;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.start:hover{
+    cursor: pointer;
+    opacity: 75%;
+}
+
+.active{
+    height: 250px;
+}
