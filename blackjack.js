@@ -140,7 +140,7 @@ function randomCard(){
 function displaycard(){
     for (let i = 0; i < count; i++){
         cardDisp[i].src = images[holders[i]]
-        cardDisp[i].classList.toggle("active")
+        cardDisp[i].classList.add("active")
     }
 }
 
